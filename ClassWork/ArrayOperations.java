@@ -24,9 +24,10 @@ public class ArrayOperations
             System.out.println("Value " + i + ": " + x[i-1]);
         }
         
-        for (int i : x)
+        for (double i : x)
         {
-            System.out.println("Value " + i + ": " + x[i]);
+            int j = (int)i;
+            System.out.println("Value " + j + ": " + x[j-1]);
         }
     }
 }
